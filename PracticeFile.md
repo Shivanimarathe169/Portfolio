@@ -8,4 +8,6 @@
 
 5- I am remotely adding this line from the GitHub web app for testing out features!!
 
+This is the stash example.
+
 
