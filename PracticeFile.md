@@ -14,4 +14,4 @@
 
 8 - I am remotely adding this line from the GitHub web app for testing out features!!
 
-This is the stash example. Stash example.
+This is the stash example. Stash example. I have edited this file to demonstrate how I can use stashing feature.
