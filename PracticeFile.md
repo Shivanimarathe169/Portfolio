@@ -4,6 +4,6 @@ This is a practice assignment that I have taken on for myself.
 
 To understand more about it, feel free to reach out to me.
 
-This is an addition I am creating in this document to test out how I can make changes in docs using git.
+This is an addition I am creating in this document to test out how I can make changes in docs using git!
 
 I am remotely adding this line from the GitHub web app for testing out features.
