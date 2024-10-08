@@ -85,10 +85,10 @@ Use the `print()` function in Python to display output.
 
 ### Code Block Example:
 
-\`\`\`python
+```python
 def greet(name):
     return f"Hello, {name}!"
-\`\`\`
+```
 
 ---
 
