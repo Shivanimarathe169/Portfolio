@@ -97,12 +97,11 @@ Markdown also supports tables, task lists, and blockquotes, which can be extreme
 
 ### Table Example:
 
-| Feature       | Description       | Status   |
-| ------------- | ----------------- | -------- |
-| Markdown      | Lightweight markup | Active   |
-| HTML          | Markup language    | Active   |
-| LaTeX         | Scientific docs    | Specialized |
-| Hi            | Hi                 | Hiiii       |
+| Feature       | Level of Expertise |
+| ------------- | ----------------- |
+| Markdown      | Basic |
+| HTML          | Basic    |
+| LaTeX         | None    |
 
 ### Task List Example:
 
