@@ -20,10 +20,9 @@ Headings are crucial for organizing your content. They help readers quickly unde
 
 ### Example:
 
-```markdown
-## Heading One
-### Heading Two
-#### Heading Three
+# H1: Main Title
+## H2: Section Title
+### H3: Subsection Title
 
 ---
 
@@ -31,7 +30,7 @@ Headings are crucial for organizing your content. They help readers quickly unde
 
 Bold, italicized, and strikethrough text are essential for emphasizing important points in technical writing. Markdown makes this easy with simple syntax.
 
-#### Example:
+### Example:
 Bold Text: **bold** or __bold__
 Italic Text: *italic* or _italic_
 Strikethrough: ~~strikethrough~~
