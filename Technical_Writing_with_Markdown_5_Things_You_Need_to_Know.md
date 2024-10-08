@@ -6,12 +6,29 @@ Markdown is a powerful and lightweight markup language, perfect for **technical 
 
 ## Table of Contents
 
-1. [Use Headings for Structure](#use-headings-for-structure)
-2. [Master Text Formatting](#master-text-formatting)
-3. [Organize with Lists](#organize-with-lists)
-4. [Enhance Content with Links and Images](#enhance-content-with-links-and-images)
-5. [Use Code Blocks for Technical Clarity](#use-code-blocks-for-technical-clarity)
-
+- [Technical Writing with Markdown: 5 Things You Need to Know](#technical-writing-with-markdown-5-things-you-need-to-know)
+  - [Table of Contents](#table-of-contents)
+  - [1. Use Headings for Structure](#1-use-headings-for-structure)
+    - [Example:](#example)
+- [H1: Main Title](#h1-main-title)
+  - [H2: Section Title](#h2-section-title)
+    - [H3: Subsection Title](#h3-subsection-title)
+  - [2. Master Text Formatting](#2-master-text-formatting)
+    - [Example:](#example-1)
+  - [3. Organize with Lists](#3-organize-with-lists)
+    - [Unordered List Example:](#unordered-list-example)
+    - [Ordered List Example:](#ordered-list-example)
+  - [4. Enhance Content with Links and Images](#4-enhance-content-with-links-and-images)
+    - [Link Example:](#link-example)
+    - [Image Example:](#image-example)
+  - [5. Use Code Blocks for Technical Clarity](#5-use-code-blocks-for-technical-clarity)
+    - [Inline Code Example:](#inline-code-example)
+    - [Code Block Example:](#code-block-example)
+  - [Bonus: Tables, Task Lists, and Blockquotes](#bonus-tables-task-lists-and-blockquotes)
+    - [Table Example:](#table-example)
+    - [Task List Example:](#task-list-example)
+    - [Blockquotes Example:](#blockquotes-example)
+  - [So, what did we learn about Markdown usage in **Technical Writing**?](#so-what-did-we-learn-about-markdown-usage-in-technical-writing)
 ---
 
 ## 1. Use Headings for Structure
