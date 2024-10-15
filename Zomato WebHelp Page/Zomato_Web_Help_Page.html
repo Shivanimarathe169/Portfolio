@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zomato Help Page - Get answers to your queries">
+    <title>Zomato Help Page</title>
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #e67e22;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #e67e22;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .search-bar input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            background-color: #e67e22;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #d45c1f;
+        }
+
+        .help-section {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .help-section .topics {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .help-section .topics h2 {
+            color: #2c3e50;
+        }
+
+        .help-section .topics ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .help-section .topics ul li {
+            margin: 10px 0;
+        }
+
+        .help-section .topics ul li a {
+            color: #e67e22;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .help-section .topics ul li a:hover {
+            color: #d45c1f;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #e67e22;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Zomato Help Center</h1>
+        <p>We're here to help you with all your queries</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Restaurants</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Contact Support</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search for help...">
+            <button>Search</button>
+        </div>
+
+        <!-- Help Topics Section -->
+        <div class="help-section">
+            <!-- Popular Topics -->
+            <div class="topics">
+                <h2>Popular Help Topics</h2>
+                <ul>
+                    <li><a href="#">How to place an order?</a></li>
+                    <li><a href="#">Managing your Zomato account</a></li>
+                    <li><a href="#">Payment and Refunds</a></li>
+                    <li><a href="#">Restaurant Listings & Reviews</a></li>
+                    <li><a href="#">Cancel or Modify Orders</a></li>
+                    <li><a href="#">Zomato Gold Membership</a></li>
+                </ul>
+            </div>
+
+            <!-- FAQs -->
+            <div class="topics">
+                <h2>Frequently Asked Questions</h2>
+                <ul>
+                    <li><a href="#">What should I do if my order is delayed?</a></li>
+                    <li><a href="#">How do I update my delivery address?</a></li>
+                    <li><a href="#">How do I get a refund for a canceled order?</a></li>
+                    <li><a href="#">Can I modify an order after placing it?</a></li>
+                    <li><a href="#">How do I contact customer support?</a></li>
+                    <li><a href="#">What is Zomato Pro?</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Zomato. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+
+</html>
