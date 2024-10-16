@@ -108,16 +108,21 @@
 
         .help-section .topics ul li {
             margin: 10px 0;
+            position: relative;
         }
 
-        .help-section .topics ul li a {
-            color: #e67e22;
-            text-decoration: none;
-            font-weight: bold;
+        .help-section .topics ul li .dropdown-content {
+            display: none;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 10px;
         }
 
-        .help-section .topics ul li a:hover {
-            color: #d45c1f;
+        .help-section .topics ul li .dropdown-arrow {
+            float: right;
+            cursor: pointer;
         }
 
         footer {
@@ -176,12 +181,36 @@
             <div class="topics">
                 <h2>Popular Help Topics</h2>
                 <ul>
-                    <li><a href="#">How to place an order?</a></li>
-                    <li><a href="#">Managing your Zomato account</a></li>
-                    <li><a href="#">Payment and Refunds</a></li>
-                    <li><a href="#">Restaurant Listings & Reviews</a></li>
-                    <li><a href="#">Cancel or Modify Orders</a></li>
-                    <li><a href="#">Zomato Gold Membership</a></li>
+                    <li>
+                        <span>How to place an order?</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">To place an order, browse the menu, add items to your cart, and proceed to checkout.</div>
+                    </li>
+                    <li>
+                        <span>Managing your Zomato account</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">You can manage your Zomato account settings by going to the account settings page.</div>
+                    </li>
+                    <li>
+                        <span>Payment and Refunds</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">We accept various payment methods, and refunds are processed within 5-7 business days.</div>
+                    </li>
+                    <li>
+                        <span>Restaurant Listings & Reviews</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">Find detailed restaurant listings and customer reviews on our platform.</div>
+                    </li>
+                    <li>
+                        <span>Cancel or Modify Orders</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">You can cancel or modify your order within a limited time frame after placing it.</div>
+                    </li>
+                    <li>
+                        <span>Zomato Gold Membership</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">Zomato Gold gives you access to exclusive deals at partner restaurants.</div>
+                    </li>
                 </ul>
             </div>
 
@@ -189,12 +218,36 @@
             <div class="topics">
                 <h2>Frequently Asked Questions</h2>
                 <ul>
-                    <li><a href="#">What should I do if my order is delayed?</a></li>
-                    <li><a href="#">How do I update my delivery address?</a></li>
-                    <li><a href="#">How do I get a refund for a canceled order?</a></li>
-                    <li><a href="#">Can I modify an order after placing it?</a></li>
-                    <li><a href="#">How do I contact customer support?</a></li>
-                    <li><a href="#">What is Zomato Pro?</a></li>
+                    <li>
+                        <span>What should I do if my order is delayed?</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">If your order is delayed, please contact customer support for assistance.</div>
+                    </li>
+                    <li>
+                        <span>How do I update my delivery address?</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">You can update your delivery address in your account settings before placing an order.</div>
+                    </li>
+                    <li>
+                        <span>How do I get a refund for a canceled order?</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">Refunds for canceled orders are processed within 5-7 business days.</div>
+                    </li>
+                    <li>
+                        <span>Can I modify an order after placing it?</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">Order modifications can be made within a limited time frame after placing the order.</div>
+                    </li>
+                    <li>
+                        <span>How do I contact customer support?</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">You can contact customer support through the help section on our website or app.</div>
+                    </li>
+                    <li>
+                        <span>What is Zomato Pro?</span>
+                        <span class="dropdown-arrow">▼</span>
+                        <div class="dropdown-content">Zomato Pro offers exclusive discounts and perks at select restaurants.</div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -206,6 +259,19 @@
         <p>&copy; 2024 Zomato. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
     </footer>
 
+    <script>
+        // Toggle dropdown answers
+        document.querySelectorAll('.dropdown-arrow').forEach(arrow => {
+            arrow.addEventListener('click', function() {
+                const dropdown = this.nextElementSibling;
+                if (dropdown.style.display === "block") {
+                    dropdown.style.display = "none";
+                } else {
+                    dropdown.style.display = "block";
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
