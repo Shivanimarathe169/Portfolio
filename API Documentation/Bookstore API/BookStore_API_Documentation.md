@@ -33,7 +33,7 @@ The API offers access to book listings, customer orders, user accounts, reviews,
 5. [Error Response](#error-responses)
 6. [Rate Limiting](#rate-limiting)
 
-## Base URL: https://api.bookstore.com/v1
+- **Base URL:** https://api.bookstore.com/v1
 
 - **Authentication:** This API uses API Key for authentication. You can include the API key in the request header:
 
