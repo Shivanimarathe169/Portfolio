@@ -1,16 +1,47 @@
 # BookStore API Documentation
 
+## Introduction to the Document
+
+This document provides comprehensive details about the BookStore API, which allows developers to integrate their applications with the BookStore system.
+The API offers access to book listings, customer orders, user accounts, reviews, and payment processing. This guide covers the available endpoints, authentication methods, request/response formats, and error handling.
+
+## Intended Audience
+
+- **Software Developers:** Developers looking to integrate the BookStore API into their applications for tasks such as fetching book data, managing orders, and handling user accounts.
+- **Technical Writers:** Documentation writers responsible for maintaining and updating the API documentation.
+- **API Consumers:** External clients or teams that wish to leverage the BookStore API for e-commerce or data-related purposes.
+- **Quality Assurance (QA) Engineers:** Professionals who need to verify and test the functionality of the API endpoints.
+
+## Scope of the Document
+
+# Table of Contents
+
+1. [Books](#1-books)
+2. [Endpoints](#endpoints)
+    - [Get All Books](#get-all-books)
+    - [Get Single Book by ID](#get-single-book-by-id)
+    - [Create a New Book](#create-a-new-book)
+    - [Update A Book](#update-a-book)
+    - [Delete a Book](#delete-a-book)
+3. [Shopping Cart](#shopping-cart)
+    - [Get Cart](#get-cart)
+    - [Add Book to Cart](#add-book-to-cart)
+    - [Update Cart](#update-cart)
+    - [Delete Book from Cart](#delete-book-from-cart)
+    - [Add Book to Cart](#add-book-to-cart)
+4. [Checkout](#checkout)
+5. [Error Response](#error-responses)
+6. [Rate Limiting](#rate-limiting)
+
 ## Base URL: https://api.bookstore.com/v1
 
-## Authentication:
+- **Authentication:** This API uses API Key for authentication. You can include the API key in the request header:
 
-This API uses API Key for authentication. You can include the API key in the request header:
-
-### Authorization: Bearer YOUR_API_KEY
+- **Authorization:** Bearer YOUR_API_KEY
 
 ## Endpoints
 
-### 1. Books
+### Books
 
 #### Get All Books
 
@@ -271,7 +302,7 @@ This API uses API Key for authentication. You can include the API key in the req
     | 1     | message     | Book deleted successfully.                  | Confirmation message for book deletion.                                      |
 
 
-### 2. Shopping Cart
+### Shopping Cart
 
 #### Get Cart
 
@@ -406,7 +437,9 @@ This API uses API Key for authentication. You can include the API key in the req
     | 1     | message     | Book removed from cart successfully.        | Confirmation message for successfully removing a book from the cart.        |
 
 
-### 3. Checkout
+### Checkout
+
+This is how the checkout call is made.
 
 #### Checkout
 
