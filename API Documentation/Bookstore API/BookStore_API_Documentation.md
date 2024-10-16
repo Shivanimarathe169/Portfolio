@@ -1,5 +1,14 @@
 # BookStore API Documentation
 
+## Base URL: 
+https://api.bookstore.com/v1
+
+## Authentication: 
+This API uses API Key for authentication. You can include the API key in the request header:
+
+## Authorization: 
+Bearer YOUR_API_KEY
+
 ## Introduction to the Document
 
 This document provides comprehensive details about the BookStore API, which allows developers to integrate their applications with the BookStore system.
@@ -32,12 +41,6 @@ The API offers access to book listings, customer orders, user accounts, reviews,
 4. [Checkout](#checkout)
 5. [Error Response](#error-responses)
 6. [Rate Limiting](#rate-limiting)
-
-- **Base URL:** https://api.bookstore.com/v1
-
-- **Authentication:** This API uses API Key for authentication. You can include the API key in the request header:
-
-- **Authorization:** Bearer YOUR_API_KEY
 
 ## Endpoints
 
