@@ -42,5 +42,5 @@ I want to contribute to the documentation of open-source projects by:
 ## 📫 How to reach me ...
 If you're interested in collaborating or have a project in need of documentation, feel free to reach out:
 - GitHub: [@Shivanimarathe169](https://github.com/@Shivanimarathe169)
-- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/shivani-m-b96a69101/)
-- Email: [YourEmail](mailto:shivanimarathe169@gmail.com)
+- LinkedIn: https://www.linkedin.com/in/shivani-m-b96a69101/
+- Email: mailto:shivanimarathe169@gmail.com
