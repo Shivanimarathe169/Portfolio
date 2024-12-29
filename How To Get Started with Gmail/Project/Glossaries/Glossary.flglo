@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary
+  conditions="">
+  <GlossaryEntry
+    Terms="Copy (5) of New"
+    glossTerm="Glossary.Term0"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Recipient</Term>
+    </Terms>
+    <Definition
+      Link="">The person or group who will receive the email; entered in the "To," "Cc," or "Bcc" fields.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term2"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Compose</Term>
+    </Terms>
+    <Definition
+      Link="">The action of creating a new email message within Gmail.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term3"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Paperclip Icon</Term>
+    </Terms>
+    <Definition
+      Link="">A symbol in the Gmail compose window used to attach files to an email.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term4"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Gmail</Term>
+    </Terms>
+    <Definition
+      Link="">A free email service provided by Google that allows users to send, receive, and organize emails.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term5"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Email Body</Term>
+    </Terms>
+    <Definition
+      Link="">The main section of the email where the message content is written.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term1"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Bcc (Blind Carbon Copy)</Term>
+    </Terms>
+    <Definition
+      Link="">A field to send a copy of the email to additional recipients without disclosing their addresses to others.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term6"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Attachment</Term>
+    </Terms>
+    <Definition
+      Link="">A file (e.g., document, image, video) included with an email for the recipient to download.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term7"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Cc (Carbon Copy)</Term>
+    </Terms>
+    <Definition
+      Link="">A field to send a copy of the email to additional recipients who are visible to all recipients.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term8"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Draft</Term>
+    </Terms>
+    <Definition
+      Link="">A saved but unsent email that can be edited and sent later.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term9"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Send Button</Term>
+    </Terms>
+    <Definition
+      Link="">A button used to send the composed email to the specified recipients.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term10"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Inbox</Term>
+    </Terms>
+    <Definition
+      Link="">The primary folder in Gmail where received emails are stored.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term11"
+    Stem="True">
+    <Terms>
+      <Term>Outbox</Term>
+    </Terms>
+    <Definition
+      Link="">A temporary folder where emails are stored before being successfully sent.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term12"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Reply</Term>
+    </Terms>
+    <Definition
+      Link="">An option to respond directly to a received email.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term13"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Forward</Term>
+    </Terms>
+    <Definition
+      Link="">An option to send a received email to a new recipient.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term14"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Signature</Term>
+    </Terms>
+    <Definition
+      Link="">A prewritten text, often containing contact details or a sign-off, automatically appended to emails.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term15"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Proofreading</Term>
+    </Terms>
+    <Definition
+      Link="">The process of reviewing and correcting an email before sending it.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term16"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Formatting Tools</Term>
+    </Terms>
+    <Definition
+      Link="">Features in Gmail to style text, such as bold, italics, underlining, or changing font and color.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term17"
+    Stem="True">
+    <Terms>
+      <Term>Search Bar</Term>
+    </Terms>
+    <Definition
+      Link="">A tool in Gmail to find specific emails based on keywords, senders, or subjects.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term18"
+    Stem="True"
+    IgnoreCase="false">
+    <Terms>
+      <Term>Toolbar</Term>
+    </Terms>
+    <Definition
+      Link="">A set of tools provided in the email composition window with multiple options such as adding attachments, text formating, adding signatures, and so on.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>
